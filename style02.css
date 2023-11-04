@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "ca";
+    src: url(fonte/can\ dog\ tfb.ttf);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c1eefd;
+}
+
+.agen{
+    background-color: #e9f8fa;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    margin-top: 10%;
+    border: solid 2px #008eb9;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px #00000081;
+}
+
+.feco{
+    background-color: #e9f8fa;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    margin-top: 10%;
+    border: solid 2px #008eb9;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px #00000081;
+}
+
+.bx{
+    margin-left: 93%;
+    margin-top: 2%;
+}
+
+h1{
+    text-align: center;
+    color: #000269;
+    padding-top: 3%;
+    padding-bottom: 7%;
+    font-size: 2.3em;
+}
+
+.label{
+    padding-left: 20%;
+}
+
+.input{
+    padding-left: 20%;
+    padding-bottom: 20px;
+}
+
+#inome{
+    border-radius: 15px;
+    width: 50%;
+    height: 25px;
+    border: solid 2px #00d9ff;
+    font-size: 0.9em;
+}
+
+#inome:hover{
+    border:solid 2px #0026ff;
+}
+
+#iraca{
+    border-radius: 15px;
+    width: 50%;
+    height: 25px;
+    border: solid 2px #00d9ff;
+    font-size: 0.9em;
+}
+
+#iraca:hover{
+    border:solid 2px #00179b;
+}
+
+#idia{
+    border-radius: 15px;
+    width: 30%;
+    height: 25px;
+    border: solid 2px #00d9ff;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#idia:hover{
+    border:solid 2px #00179b;
+}
+
+#ihora{
+    border-radius: 15px;
+    width: 30%;
+    height: 25px;
+    border: solid 2px #00d9ff;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#ihora:hover{
+    border:solid 2px #00179b;
+}
+
+#iemail{
+    border-radius: 15px;
+    width: 50%;
+    height: 25px;
+    border: solid 2px #00d9ff;
+    font-size: 0.9em;
+}
+
+#iemail:hover{
+    border:solid 2px #00179b;
+}
+
+#itel{
+    border-radius: 15px;
+    width: 50%;
+    height: 25px;
+    border: solid 2px #00d9ff;
+    font-size: 0.9em;
+}
+
+#itel:hover{
+    border:solid 2px #00179b;
+}
+
+#isenha{
+    border-radius: 15px;
+    width: 50%;
+    height: 25px;
+    border: solid 2px #00d9ff;
+    font-size: 0.9em;
+}
+
+#isenha:hover{
+    border:solid 2px #00179b;
+}
+
+#icep{
+    border-radius: 15px;
+    width: 50%;
+    height: 25px;
+    border: solid 2px #00d9ff;
+    font-size: 0.9em;
+}
+
+#icep:hover{
+    border:solid 2px #00179b;
+}
+
+.botao{
+    display: flex;
+    margin: 20px;
+}
+
+.limpar{
+    margin-right: 64%;
+}
+
+#conf{
+    width: 100px;
+    height: 30px;
+    background-color: #008eb9;
+    border: solid 0px;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#conf:hover{
+    box-shadow: 0px 0px 15px #00779b;
+    border: solid 1px #00a2be;
+}
+
+#limp{
+    width: 100px;
+    height: 30px;
+    background-color: #008eb9;
+    border: solid 0px;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#limp:hover{
+    box-shadow: 0px 0px 15px #00779b;
+    border: solid 1px #00a2be;
+}
+
+.ht{
+    text-align: center;
+}

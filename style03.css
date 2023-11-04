@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "ca";
+    src: url(fonte/can\ dog\ tfb.ttf);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #bbe3f0;
+}
+
+.dp{
+    background-color: #ffffff;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px #0000008a
+}
+
+.ds{
+    margin-top: 30px;
+    background-color: #008eb9;
+    width: 100px;
+    height: 30px;
+    padding-top: 10px;
+    margin-left: 200px;
+    border-radius: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.ds:hover{
+    box-shadow: 0px 0px 15px #00779b;
+    border: solid 1px #00a2be;
+}

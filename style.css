@@ -1,0 +1,189 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "ca";
+    src: url(fonte/can\ dog\ tfb.ttf);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #bbe3f0;
+}
+
+header {
+    display: flex;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 5px #00000033;
+}
+
+#fc {
+    font-family: "ca";
+    font-size: 13em;
+    font-weight: normal;
+    padding-left: 100px;
+    color: #0380aa;
+}
+
+#header {
+    width: 90%;
+    height: 100%;
+}
+
+#header>p {
+    color: #089aca;
+    padding-top: 10px;
+    padding-left: 40px;
+    font-size: 1.4em;
+}
+
+#h1p {
+    font-size: 4em;
+    color: #089aca;
+    width: 90%;
+    padding-top: 50px;
+    padding-left: 30px;
+    background-color: #ffffff;
+}
+
+.cachorro2 {
+    height: 40vh;
+}
+
+main {
+    margin: auto;
+    min-width: 300px;
+    max-width: 930px;
+}
+
+.l1 {
+    display: flex;
+}
+
+.l2 {
+    display: flex;
+}
+
+.l3 {
+    display: flex;
+}
+
+.produtos {
+    background-color: white;
+    width: 250px;
+    height: 300px;
+    margin: 30px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #00000027;
+}
+
+.produtos:hover {
+    margin-right: 15px;
+    margin-top: 15px;
+    width: 265px;
+    height: 315px;
+    transition: 0.3s;
+    box-shadow: 0px 0px 15px #0000006c;
+}
+
+.pro-foto {
+    padding-left: 10%;
+    border-radius: 17px;
+}
+
+.pro-foto-s{
+    padding-left: 20%;
+}
+
+.nome {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.pre {
+    font-size: 1.6em;
+    padding-top: 15px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.but{
+    background-color: #0380aa;
+    width: 150px;
+    height: 50px;
+    margin: auto;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.but > p{
+    margin-top: 10px;
+    padding-top: 13px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.but:hover{
+    box-shadow: 0px 0px 15px #0145ff;
+    transition: 0.2s;
+}
+
+footer{
+    box-shadow: -10px 0px 10px rgba(0, 0, 0, 0.37);
+    display: flex;
+    height: 300px;
+    background-color: #ffffff;
+}
+
+footer > div{
+    margin-top: 30px;
+}
+
+#atendimento{
+    color: #ffffff;
+    margin-left: 10%;
+    width: 408px;
+    height: 200px;
+    background-color: #0044ff;
+    border-radius: 10px;
+}
+
+#atendimento > p{
+    padding: 20px;
+}
+
+#atendimento > h2{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#comprovante{
+    margin-left: 18%;
+}
+
+#comprovante > p{
+    color: #5f5f5f;
+    margin-bottom: 8px;
+}
+
+.certi{
+    margin-top: 40px;
+    margin-left: 16%;
+}
+
+.certi > img{
+    margin-right: 20px;
+}
+
+.certificado{
+    margin-top: 100px;
+}
