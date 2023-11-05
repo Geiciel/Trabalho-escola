@@ -17,6 +17,7 @@ body {
 
 header {
     display: flex;
+    width: 100%;
     background-color: #ffffff;
     box-shadow: 0px 5px 5px #00000033;
 }
@@ -27,6 +28,13 @@ header {
     font-weight: normal;
     padding-left: 100px;
     color: #0380aa;
+}
+
+@media screen and (max-width:900px){
+    #fc{
+        font-size: 1px;
+        color: #ffffff5;
+    }
 }
 
 #header {
@@ -42,7 +50,7 @@ header {
 }
 
 #h1p {
-    font-size: 4em;
+    font-size: 3em;
     color: #089aca;
     width: 90%;
     padding-top: 50px;
@@ -50,43 +58,58 @@ header {
     background-color: #ffffff;
 }
 
+@media screen and (max-width:680px){
+    #h1p{
+        padding-top: 15px;
+    }
+}
+
 .cachorro2 {
-    height: 40vh;
+    max-width: 40vw;
+    min-width: 0vw;
 }
 
-main {
+@media screen and (max-width:405px){
+    .cachorro2{
+        width: 1px;
+    }
+}
+
+@media screen and (max-width:510px){
+    .cachorro2{
+        margin-top: 10%;
+    }
+}
+
+.conteiner{
+    max-width: 1000px;
     margin: auto;
-    min-width: 300px;
-    max-width: 930px;
-}
+    padding: 30px;
 
-.l1 {
-    display: flex;
-}
-
-.l2 {
-    display: flex;
-}
-
-.l3 {
-    display: flex;
 }
 
 .produtos {
-    background-color: white;
+    display: inline-block;
+    background-color: #ffffff;
     width: 250px;
     height: 300px;
-    margin: 30px;
-    margin-bottom: 15px;
-    border-radius: 20px;
+    margin: 20px 10px 20px 20px;
+    border-radius: 2px 35px;
     box-shadow: 5px 5px 5px #00000027;
 }
 
+@media screen and (max-width:624px){
+    .produtos{
+        
+    }
+}
+
 .produtos:hover {
-    margin-right: 15px;
-    margin-top: 15px;
-    width: 265px;
     height: 315px;
+    width: 265px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
     transition: 0.3s;
     box-shadow: 0px 0px 15px #0000006c;
 }
@@ -138,46 +161,52 @@ a {
 }
 
 footer{
-    box-shadow: -10px 0px 10px rgba(0, 0, 0, 0.37);
-    display: flex;
-    height: 300px;
+    text-align: center;
+    box-shadow: -10px 0px 10px #0000005e;
+    height: 500px;
+    width: 100%;
+    padding-top: 1px;
     background-color: #ffffff;
-}
-
-footer > div{
-    margin-top: 30px;
 }
 
 #atendimento{
     color: #ffffff;
-    margin-left: 10%;
-    width: 408px;
-    height: 200px;
+    max-width: 300px;
+    margin-left: 5%;
     background-color: #0044ff;
     border-radius: 10px;
+    margin-bottom: 2%;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
 }
 
-#atendimento > p{
-    padding: 20px;
+.cc{
+    margin-top: 5px;
 }
 
 #atendimento > h2{
-    padding-top: 10px;
-    padding-left: 10px;
+    padding: auto;
 }
 
 #comprovante{
-    margin-left: 18%;
+    margin-left: 1%;
+    margin-top: 10px;
 }
 
 #comprovante > p{
     color: #5f5f5f;
     margin-bottom: 8px;
+    
+}
+
+#ceco{
+    display: inline-block;
 }
 
 .certi{
-    margin-top: 40px;
-    margin-left: 16%;
+    margin-top: 10px;
+    margin-left: 1%;
 }
 
 .certi > img{
@@ -185,5 +214,21 @@ footer > div{
 }
 
 .certificado{
-    margin-top: 100px;
+    margin-top: 9px;
+}
+
+.paga{
+    max-width: 435px;
+}
+
+@media screen and (max-width:440px){
+    .paga{
+        max-width: 340px;
+    }
+}
+
+@media screen and (max-width:340px){
+    .paga{
+        max-width: 250px;
+    }
 }
