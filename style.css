@@ -85,7 +85,37 @@ header {
     max-width: 1000px;
     margin: auto;
     padding: 30px;
+}
 
+@media screen and (min-width: 909px){
+    .conteiner {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 16px;
+        gap: 16px;
+        justify-items: center;
+    }
+}
+
+@media screen and (max-width: 908px){
+    .conteiner {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 16px;
+        gap: 16px;
+        justify-items: center;
+        max-width: 600px;
+    }
+}
+
+@media screen and (max-width: 624px){
+    .conteiner {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 16px;
+        gap: 16px;
+        justify-items: center;
+    }
 }
 
 .produtos {
