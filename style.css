@@ -128,12 +128,6 @@ header {
     box-shadow: 5px 5px 5px #00000027;
 }
 
-@media screen and (max-width:624px){
-    .produtos{
-        
-    }
-}
-
 .produtos:hover {
     height: 315px;
     width: 265px;
