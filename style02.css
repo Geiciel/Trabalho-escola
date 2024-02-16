@@ -157,6 +157,23 @@ h1{
     border:solid 2px #00179b;
 }
 
+.but-x {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 91%;
+    margin-top: 10px;
+}
+
+.agen-but-x {
+    width: 30px;
+}
+
+.a-but-x {
+    width: 0px;
+    margin-left: 91%;
+}
+
 .botao{
     display: flex;
     margin: 20px;
@@ -179,6 +196,7 @@ h1{
 #conf:hover{
     box-shadow: 0px 0px 15px #00779b;
     border: solid 1px #00a2be;
+    cursor: pointer;
 }
 
 #limp{
@@ -194,6 +212,7 @@ h1{
 #limp:hover{
     box-shadow: 0px 0px 15px #00779b;
     border: solid 1px #00a2be;
+    cursor: pointer;
 }
 
 .ht{
